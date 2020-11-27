@@ -1407,7 +1407,7 @@ _New Features:_
 _Breaking changes:_
 
 - The NGINX server listening in port 18080 was removed. It was replaced by a server using an unix socket as port [#3684](https://github.com/kubernetes/ingress-nginx/pull/3684)
-  This server was internal to the ingress controller. In case this was being acceded from the outside, you can restore the old server using the `http-snipet` feature in the configuration configmap like:
+  This server was internal to the ingress controller. In case this was being acceded from the outside, you can restore the old server using the `http-snippet` feature in the configuration configmap like:
 
   ```yaml
   http-snippet: |
