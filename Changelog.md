@@ -1599,7 +1599,7 @@ _Changes:_
 - [X] [#3641](https://github.com/kubernetes/ingress-nginx/pull/3641) Replace deprecated apiVersion in deploy folder
 - [X] [#3643](https://github.com/kubernetes/ingress-nginx/pull/3643) Update nginx
 - [X] [#3644](https://github.com/kubernetes/ingress-nginx/pull/3644) Update nginx image
-- [X] [#3648](https://github.com/kubernetes/ingress-nginx/pull/3648) Remove stickyness cookie domain from Lua balancer to match old behavior
+- [X] [#3648](https://github.com/kubernetes/ingress-nginx/pull/3648) Remove stickiness cookie domain from Lua balancer to match old behavior
 - [X] [#3649](https://github.com/kubernetes/ingress-nginx/pull/3649) Empty access_by_lua_block breaks satisfy any
 - [X] [#3655](https://github.com/kubernetes/ingress-nginx/pull/3655) Remove flag sort-backends
 - [X] [#3656](https://github.com/kubernetes/ingress-nginx/pull/3656) Change default value of  flag for ssl chain completion

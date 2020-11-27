@@ -86,7 +86,7 @@ var (
 			true,
 			false,
 		},
-		"when secure backend, stickeness and dynamic config enabled": {
+		"when secure backend, stickiness and dynamic config enabled": {
 			"/",
 			"/",
 			"/",
