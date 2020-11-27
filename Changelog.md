@@ -593,7 +593,7 @@ _Changes:_
 - [X] [#5221](https://github.com/kubernetes/ingress-nginx/pull/5221) Update NGINX image
 - [X] [#5225](https://github.com/kubernetes/ingress-nginx/pull/5225) Avoid secret without tls.crt and tls.key but a valid ca.crt
 - [X] [#5226](https://github.com/kubernetes/ingress-nginx/pull/5226) Fix $service_name and $service_port variables values without host
-- [X] [#5232](https://github.com/kubernetes/ingress-nginx/pull/5232) Refacored proxy ssl TC-s
+- [X] [#5232](https://github.com/kubernetes/ingress-nginx/pull/5232) Refactored proxy ssl TC-s
 - [X] [#5241](https://github.com/kubernetes/ingress-nginx/pull/5241) Fix controller container name
 - [X] [#5246](https://github.com/kubernetes/ingress-nginx/pull/5246) Remove checks for older versions
 - [X] [#5249](https://github.com/kubernetes/ingress-nginx/pull/5249) Add support for hostPort in Deployment
