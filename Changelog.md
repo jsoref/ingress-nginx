@@ -1608,7 +1608,7 @@ _Changes:_
 
 _Documentation:_
 
-- [X] [#3513](https://github.com/kubernetes/ingress-nginx/pull/3513) Revert removal of TCP and UDP support configmaps in mandatroy manifest
+- [X] [#3513](https://github.com/kubernetes/ingress-nginx/pull/3513) Revert removal of TCP and UDP support configmaps in mandatory manifest
 - [X] [#3456](https://github.com/kubernetes/ingress-nginx/pull/3456) Revert TCP/UDP documentation removal and links
 - [X] [#3482](https://github.com/kubernetes/ingress-nginx/pull/3482) Annotations doc links: minor fixes and unification
 - [X] [#3491](https://github.com/kubernetes/ingress-nginx/pull/3491) Update example to use latest Dashboard version.
