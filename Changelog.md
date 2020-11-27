@@ -2543,7 +2543,7 @@ _Changes:_
 - [x] [#1907](https://github.com/kubernetes/ingress-nginx/pull/1907) Fix custom port in redirects
 - [x] [#1909](https://github.com/kubernetes/ingress-nginx/pull/1909) Release nginx 0.32
 - [x] [#1910](https://github.com/kubernetes/ingress-nginx/pull/1910) updating prometheus metrics names according to naming best practices
-- [x] [#1912](https://github.com/kubernetes/ingress-nginx/pull/1912) removing \_total prefix from nginx guage metrics
+- [x] [#1912](https://github.com/kubernetes/ingress-nginx/pull/1912) removing \_total prefix from nginx gauge metrics
 - [x] [#1914](https://github.com/kubernetes/ingress-nginx/pull/1914) Add --with-http_secure_link_module for the Nginx build configuration
 - [x] [#1916](https://github.com/kubernetes/ingress-nginx/pull/1916) Add support for jaeger backend
 - [x] [#1918](https://github.com/kubernetes/ingress-nginx/pull/1918) Update nginx image to 0.32
