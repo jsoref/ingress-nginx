@@ -256,7 +256,7 @@ Enables the OWASP ModSecurity Core Rule Set (CRS). _**default:**_ is disabled
 
 ## modsecurity-snippet
 
-Adds custom rules to modsecurity section of nginx configration
+Adds custom rules to modsecurity section of nginx configuration
 
 ## client-header-buffer-size
 
