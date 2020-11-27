@@ -53,7 +53,7 @@ This guide refers to chapters in the CIS Benchmark. For full explanation you sho
 | ||| |
 | __2.4 Network Configuration__ ||| |
 | 2.4.1 Ensure NGINX only listens for network connections on authorized ports (Not Scored)| OK | Ensured by automatic nginx.conf configuration| |
-| 2.4.2 Ensure requests for unknown host names are rejected (Not Scored)| OK | They are not rejected but send to the "default backend" delivering approriate errors (mostly 404)| |
+| 2.4.2 Ensure requests for unknown host names are rejected (Not Scored)| OK | They are not rejected but send to the "default backend" delivering appropriate errors (mostly 404)| |
 | 2.4.3 Ensure keepalive_timeout is 10 seconds or less, but not 0 (Scored)| ACTION NEEDED| Default is 75s | configure keep-alive to 10 seconds [according to this documentation](https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/configmap.md#keep-alive) |
 | 2.4.4 Ensure send_timeout is set to 10 seconds or less, but not 0 (Scored)| RISK TO BE ACCEPTED| Not configured, however the nginx default is 60s| Not configurable|
 | ||| |
