@@ -68,7 +68,7 @@ This guide refers to chapters in the CIS Benchmark. For full explanation you sho
 | 3.1 Ensure detailed logging is enabled (Not Scored) | OK | nginx ingress has a very detailed log format by default | |
 | 3.2 Ensure access logging is enabled (Scored) | OK | Access log is enabled by default | |
 | 3.3 Ensure error logging is enabled and set to the info logging level (Scored)| OK | Error log is configured by default. The log level does not matter, because it is all sent to STDOUT anyway | |
-| 3.4 Ensure log files are rotated (Scored) | OBSOLETE | Log file handling is not part of the nginx ingress and should be handled separatly | |
+| 3.4 Ensure log files are rotated (Scored) | OBSOLETE | Log file handling is not part of the nginx ingress and should be handled separately | |
 | 3.5 Ensure error logs are sent to a remote syslog server (Not Scored) | OBSOLETE | See previous answer| |
 | 3.6 Ensure access logs are sent to a remote syslog server (Not Scored)| OBSOLETE | See previous answer| |
 | 3.7 Ensure proxies pass source IP information (Scored)| OK | Headers are set by default | |
