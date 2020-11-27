@@ -98,7 +98,7 @@ This guide refers to chapters in the CIS Benchmark. For full explanation you sho
 | 5.1.2 Ensure only whitelisted HTTP methods are allowed (Not Scored) | OK/ACTION NEEDED | Depends on use case| If required it can be set via config snippet|
 | ||| |
 | __5.2 Request Limits__||| |
-| 5.2.1 Ensure timeout values for reading the client header and body are set correctly (Scored) | ACTION NEEDED| Default timeout is 60s | Set via [this configuration parameter](https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/configmap.md#client-header-timeout) and respective body aequivalent|
+| 5.2.1 Ensure timeout values for reading the client header and body are set correctly (Scored) | ACTION NEEDED| Default timeout is 60s | Set via [this configuration parameter](https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/configmap.md#client-header-timeout) and respective body equivalent|
 | 5.2.2 Ensure the maximum request body size is set correctly (Scored)| ACTION NEEDED| Default is 1m| set via [this configuration parameter](https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/configmap.md#proxy-body-size)|
 | 5.2.3 Ensure the maximum buffer size for URIs is defined (Scored) | ACTION NEEDED| Default is 4 8k| Set via [this configuration parameter](https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/configmap.md#large-client-header-buffers)|
 | 5.2.4 Ensure the number of connections per IP address is limited (Not Scored) | OK/ACTION NEEDED| No limit set| Depends on use case, limit can be set via [these annotations](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#rate-limiting)|
