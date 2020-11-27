@@ -543,11 +543,11 @@ var _ = framework.DescribeAnnotation("canary-*", func() {
 				80, canaryAnnotations)
 			f.EnsureIngress(canaryIng)
 
-			ginkgo.By("routing requests to the mainline upstream when header is set to 'DoCananry' and header-value is 'DoCanary'")
+			ginkgo.By("routing requests to the mainline upstream when header is set to 'DoCanary' and header-value is 'DoCanary'")
 			f.HTTPTestClient().
 				GET("/").
 				WithHeader("Host", host).
-				WithHeader("CanaryByHeader", "DoCananry").
+				WithHeader("CanaryByHeader", "DoCanary").
 				Expect().
 				Status(http.StatusOK).
 				Body().Contains(framework.EchoService).NotContains(canaryService)
