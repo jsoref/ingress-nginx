@@ -1436,7 +1436,7 @@ func extractTLSSecretName(host string, ing *ingress.Ingress,
 	return ""
 }
 
-// getRemovedHosts returns a list of the hostsnames
+// getRemovedHosts returns a list of the hostnames
 // that are not associated anymore to the NGINX configuration.
 func getRemovedHosts(rucfg, newcfg *ingress.Configuration) []string {
 	old := sets.NewString()
