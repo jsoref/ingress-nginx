@@ -63,7 +63,7 @@ func buildSimpleClientSet() *testclient.Clientset {
 					Name:      "foo1",
 					Namespace: apiv1.NamespaceDefault,
 					Labels: map[string]string{
-						"lable_sig": "foo_pod",
+						"label_sig": "foo_pod",
 					},
 				},
 				Spec: apiv1.PodSpec{
@@ -96,7 +96,7 @@ func buildSimpleClientSet() *testclient.Clientset {
 					Name:      "foo2",
 					Namespace: apiv1.NamespaceDefault,
 					Labels: map[string]string{
-						"lable_sig": "foo_no",
+						"label_sig": "foo_no",
 					},
 				},
 			},
@@ -105,7 +105,7 @@ func buildSimpleClientSet() *testclient.Clientset {
 					Name:      "foo3",
 					Namespace: metav1.NamespaceSystem,
 					Labels: map[string]string{
-						"lable_sig": "foo_pod",
+						"label_sig": "foo_pod",
 					},
 				},
 				Spec: apiv1.PodSpec{
@@ -301,7 +301,7 @@ func TestStatusActions(t *testing.T) {
 			Name:      "foo_base_pod",
 			Namespace: apiv1.NamespaceDefault,
 			Labels: map[string]string{
-				"lable_sig": "foo_pod",
+				"label_sig": "foo_pod",
 			},
 		},
 	}
