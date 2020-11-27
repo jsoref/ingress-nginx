@@ -481,7 +481,7 @@ _Changes:_
 _Documentation:_
 
 - [X] [#5487](https://github.com/kubernetes/ingress-nginx/pull/5487) Add note about firewall ports for admission webhook
-- [X] [#5512](https://github.com/kubernetes/ingress-nginx/pull/5512) Wrong filename in documantation example
+- [X] [#5512](https://github.com/kubernetes/ingress-nginx/pull/5512) Wrong filename in documentation example
 - [X] [#5563](https://github.com/kubernetes/ingress-nginx/pull/5563) Use ingress-nginx-* naming in docs to match the default deployments
 - [X] [#5566](https://github.com/kubernetes/ingress-nginx/pull/5566) Update configmap name in custom-headers/README.md
 - [X] [#5639](https://github.com/kubernetes/ingress-nginx/pull/5639) Update timeout to align values
