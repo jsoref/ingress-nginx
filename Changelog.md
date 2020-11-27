@@ -997,7 +997,7 @@ _New Features:_
 
   If the active connections end before that, the pod will terminate gracefully at that time.
 
-  To efectively take advantage of this feature, the Configmap feature [worker-shutdown-timeout](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#worker-shutdown-timeout) new value is `240s` instead of `10s`.
+  To effectively take advantage of this feature, the Configmap feature [worker-shutdown-timeout](https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#worker-shutdown-timeout) new value is `240s` instead of `10s`.
 
   **IMPORTANT:** this value has a side effect during reloads, consuming more memory until the old NGINX workers are replaced.
 
