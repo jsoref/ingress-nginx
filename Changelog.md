@@ -707,7 +707,7 @@ _Changes:_
 - [X] [#5098](https://github.com/kubernetes/ingress-nginx/pull/5098) Fix make dev-env
 - [X] [#5100](https://github.com/kubernetes/ingress-nginx/pull/5100) Ensure make dev-env support rolling updates
 - [X] [#5101](https://github.com/kubernetes/ingress-nginx/pull/5101) Add keep-alive config check test
-- [X] [#5102](https://github.com/kubernetes/ingress-nginx/pull/5102) Migrate e2e libaries
+- [X] [#5102](https://github.com/kubernetes/ingress-nginx/pull/5102) Migrate e2e libraries
 - [X] [#5103](https://github.com/kubernetes/ingress-nginx/pull/5103) Added configmap test for no-tls-redirect-locations
 - [X] [#5105](https://github.com/kubernetes/ingress-nginx/pull/5105) Reuse-port check e2e tc (config check only)
 - [X] [#5109](https://github.com/kubernetes/ingress-nginx/pull/5109) Added basic limit-rate configmap test.
