@@ -379,7 +379,7 @@ func TestKeyfunc(t *testing.T) {
 	}
 }
 
-func TestRunningAddresessWithPublishService(t *testing.T) {
+func TestRunningAddressesWithPublishService(t *testing.T) {
 	testCases := map[string]struct {
 		fakeClient  *testclient.Clientset
 		expected    []string
@@ -559,7 +559,7 @@ func TestRunningAddresessWithPublishService(t *testing.T) {
 	}
 }
 
-func TestRunningAddresessWithPods(t *testing.T) {
+func TestRunningAddressesWithPods(t *testing.T) {
 	fk := buildStatusSync()
 	fk.PublishService = ""
 
@@ -577,7 +577,7 @@ func TestRunningAddresessWithPods(t *testing.T) {
 	}
 }
 
-func TestRunningAddresessWithPublishStatusAddress(t *testing.T) {
+func TestRunningAddressesWithPublishStatusAddress(t *testing.T) {
 	fk := buildStatusSync()
 	fk.PublishStatusAddress = "127.0.0.1"
 
