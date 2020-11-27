@@ -1,0 +1,11 @@
+(?:^|/)go\.(?:sum|mod)$
+/mime\.types$
+\.dat$
+\.gliffy$
+\.jpg$
+\.lock$
+\.pem$
+\.png$
+^\.github/
+^vendor/
+ignore$

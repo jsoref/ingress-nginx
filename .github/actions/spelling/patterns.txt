@@ -1,0 +1,29 @@
+# patch hunk comments
+^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
+# git index header
+index [0-9a-z]{7,12}\.\.[0-9a-z]{7,12}
+# YouTube
+https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:channel/|embed/|)[-a-zA-Z0-9?&=_]*
+# Google Groups
+https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
+# GitHub SHAs
+(?:\[[0-9a-f]+\]\(https:/|)/github\.com/[^/]+/[^/]+/[^/]+/[0-9a-f]+\b
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+# gist github
+/gist\.github\.com/[^/]+/[0-9a-f]+
+# URL escaped characters
+\%[0-9A-F]{2}
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b
+
+get_src [0-9a-f]{64}\b
+sha256:[0-9a-f]{64}\b
+_SHA=[0-9a-f]{64}\b
+Tagging [0-9a-f]{64} as\b
+"[0-9a-f]{64}"
+\b[0-9a-f]{40}\b
+[{"'][0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}['"}]
+v\d+
+(?:[Tt]ypo fix|[Ff]ix (?:typo|spell error))(?:(?:[^:]+|): [^-]+-|[^-]+ -)
+(?:[Tt]ypo fix|[Ff]ix typo) \w+ to .*
