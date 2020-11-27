@@ -18,7 +18,7 @@ see-also:
 replaces:
   - "/docs/enhancements/20181231-replaced-kep.md"
 superseded-by:
-  - "/docs/enhancements/20190104-superceding-kep.md"
+  - "/docs/enhancements/20190104-superseding-kep.md"
 ---
 
 # Title
