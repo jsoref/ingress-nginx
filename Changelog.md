@@ -3259,7 +3259,7 @@ _Changes:_
 - [x] [#624](https://github.com/kubernetes/ingress/pull/624) Compute server_names_hash_bucket_size correctly
 - [x] [#615](https://github.com/kubernetes/ingress/pull/615) Process exited cleanly before we hit wait4
 - [x] [#614](https://github.com/kubernetes/ingress/pull/614) Refactor nginx ssl passthrough
-- [x] [#613](https://github.com/kubernetes/ingress/pull/613) Status leader election must consired the ingress class
+- [x] [#613](https://github.com/kubernetes/ingress/pull/613) Status leader election must considered the ingress class
 - [x] [#607](https://github.com/kubernetes/ingress/pull/607) Allow custom server_names_hash_max_size & server_names_hash_bucket_size
 - [x] [#601](https://github.com/kubernetes/ingress/pull/601) add a judgment
 - [x] [#601](https://github.com/kubernetes/ingress/pull/600) Replace custom child reap code with go-reap
