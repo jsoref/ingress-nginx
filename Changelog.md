@@ -212,7 +212,7 @@ _Documentation:_
 - [X] [#6180](https://github.com/kubernetes/ingress-nginx/pull/6180) Fix helm chart admissionReviewVersions regression
 - [X] [#6181](https://github.com/kubernetes/ingress-nginx/pull/6181) Improve prerequisite instructions
 - [X] [#6214](https://github.com/kubernetes/ingress-nginx/pull/6214) Update annotations.md - improvements to the documentation of Client Certificate Authentication
-- [X] [#6215](https://github.com/kubernetes/ingress-nginx/pull/6215) Update the comment for Makefile taks live-docs
+- [X] [#6215](https://github.com/kubernetes/ingress-nginx/pull/6215) Update the comment for Makefile task live-docs
 - [X] [#6221](https://github.com/kubernetes/ingress-nginx/pull/6221) corrected reference for release
 
 
