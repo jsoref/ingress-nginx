@@ -81,7 +81,7 @@ Ensure the TOC is wrapped with <code>&lt;!-- toc --&rt;&lt;!-- /toc --&rt;</code
 ## Summary
 
 The `Summary` section is incredibly important for producing high quality user-focused documentation such as release notes or a development roadmap.
-It should be possible to collect this information before implementation begins in order to avoid requiring implementors to split their attention between writing release notes and implementing the feature itself.
+It should be possible to collect this information before implementation begins in order to avoid requiring implementers to split their attention between writing release notes and implementing the feature itself.
 
 A good summary is probably at least a paragraph in length.
 
