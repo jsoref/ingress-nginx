@@ -2694,7 +2694,7 @@ _Changes:_
 - [x] [#1500](https://github.com/kubernetes/ingress-nginx/pull/1500) Enable modsecurity feature
 - [x] [#1501](https://github.com/kubernetes/ingress-nginx/pull/1501) Request ingress controller version in issue template
 - [x] [#1502](https://github.com/kubernetes/ingress-nginx/pull/1502) Force reload on template change
-- [x] [#1503](https://github.com/kubernetes/ingress-nginx/pull/1503) Add falg to report node internal IP address in ingress status
+- [x] [#1503](https://github.com/kubernetes/ingress-nginx/pull/1503) Add flag to report node internal IP address in ingress status
 - [x] [#1505](https://github.com/kubernetes/ingress-nginx/pull/1505) Increase size of variable hash bucket
 - [x] [#1506](https://github.com/kubernetes/ingress-nginx/pull/1506) Update nginx ssl configuration
 - [x] [#1507](https://github.com/kubernetes/ingress-nginx/pull/1507) Add tls session ticket key setting
