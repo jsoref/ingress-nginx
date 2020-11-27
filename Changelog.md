@@ -1592,7 +1592,7 @@ _Changes:_
 - [X] [#3624](https://github.com/kubernetes/ingress-nginx/pull/3624) Update nginx to fix geoip database deprecation
 - [X] [#3625](https://github.com/kubernetes/ingress-nginx/pull/3625) Update nginx image
 - [X] [#3633](https://github.com/kubernetes/ingress-nginx/pull/3633) Fix a bug in Ingress update handler
-- [X] [#3634](https://github.com/kubernetes/ingress-nginx/pull/3634) canary by cookie should support hypen in cookie name
+- [X] [#3634](https://github.com/kubernetes/ingress-nginx/pull/3634) canary by cookie should support hyphen in cookie name
 - [X] [#3635](https://github.com/kubernetes/ingress-nginx/pull/3635) Fix duplicate alternative backend merging
 - [X] [#3637](https://github.com/kubernetes/ingress-nginx/pull/3637) Add support for redirect https to https (from-to-www-redirect)
 - [X] [#3640](https://github.com/kubernetes/ingress-nginx/pull/3640) add limit connection status code
