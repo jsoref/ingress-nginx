@@ -2816,7 +2816,7 @@ _Changes:_
 - [x] [#1345](https://github.com/kubernetes/ingress/pull/1345) refactor controllers.go
 - [x] [#1349](https://github.com/kubernetes/ingress/pull/1349) Force reload if a secret is updated
 - [x] [#1363](https://github.com/kubernetes/ingress/pull/1363) Fix proxy request buffering default configuration
-- [x] [#1365](https://github.com/kubernetes/ingress/pull/1365) Fix equals comparison returing False if both objects have nil Targets or Services.
+- [x] [#1365](https://github.com/kubernetes/ingress/pull/1365) Fix equals comparison returning False if both objects have nil Targets or Services.
 - [x] [#1367](https://github.com/kubernetes/ingress/pull/1367) Fix typos
 - [x] [#1379](https://github.com/kubernetes/ingress/pull/1379) Fix catch all upstream server
 - [x] [#1380](https://github.com/kubernetes/ingress/pull/1380) Cleanup
