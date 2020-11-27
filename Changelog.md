@@ -1548,7 +1548,7 @@ _Changes:_
 - [X] [#3476](https://github.com/kubernetes/ingress-nginx/pull/3476) Fix nginx directory permissions
 - [X] [#3477](https://github.com/kubernetes/ingress-nginx/pull/3477) clarify canary ingress
 - [X] [#3478](https://github.com/kubernetes/ingress-nginx/pull/3478) delete unused buildLoadBalancingConfig
-- [X] [#3487](https://github.com/kubernetes/ingress-nginx/pull/3487) dynamic certificate mode should support widlcard hosts
+- [X] [#3487](https://github.com/kubernetes/ingress-nginx/pull/3487) dynamic certificate mode should support wildcard hosts
 - [X] [#3488](https://github.com/kubernetes/ingress-nginx/pull/3488) Add probes to deployments used in e2e tests
 - [X] [#3492](https://github.com/kubernetes/ingress-nginx/pull/3492) Fix data size validations
 - [X] [#3494](https://github.com/kubernetes/ingress-nginx/pull/3494) Since dynamic mode only checking for 'return 503' is not valid anymore
