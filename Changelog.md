@@ -2456,7 +2456,7 @@ _Changes:_
 _Documentation:_
 
 - [x] [#1987](https://github.com/kubernetes/ingress-nginx/pull/1987) add kube-system namespace for oauth2-proxy example
-- [x] [#1991](https://github.com/kubernetes/ingress-nginx/pull/1991) Add comment about bolean and number values
+- [x] [#1991](https://github.com/kubernetes/ingress-nginx/pull/1991) Add comment about boolean and number values
 - [x] [#2009](https://github.com/kubernetes/ingress-nginx/pull/2009) docs/user-guide/tls: remove duplicated section
 - [x] [#2011](https://github.com/kubernetes/ingress-nginx/pull/2011) broken link for sticky-ingress.yaml
 - [x] [#2014](https://github.com/kubernetes/ingress-nginx/pull/2014) Add document for connection-proxy-header annotation
