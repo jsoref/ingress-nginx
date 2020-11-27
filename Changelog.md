@@ -337,7 +337,7 @@ _Changes:_
 - [X] [#5712](https://github.com/kubernetes/ingress-nginx/pull/5712) Add proxy-ssl-server-name to pass server name on SNI
 - [X] [#5713](https://github.com/kubernetes/ingress-nginx/pull/5713) Fix static manifests location
 - [X] [#5717](https://github.com/kubernetes/ingress-nginx/pull/5717) Add support for an internal load balancer along with an external one
-- [X] [#5722](https://github.com/kubernetes/ingress-nginx/pull/5722) Remove deprecrated --generator flag
+- [X] [#5722](https://github.com/kubernetes/ingress-nginx/pull/5722) Remove deprecated --generator flag
 - [X] [#5725](https://github.com/kubernetes/ingress-nginx/pull/5725) Fix e2e externalName test
 - [X] [#5726](https://github.com/kubernetes/ingress-nginx/pull/5726) Dynamic LB sync non-external backends only when necessary
 - [X] [#5727](https://github.com/kubernetes/ingress-nginx/pull/5727) Adjust E2E_NODES variable
