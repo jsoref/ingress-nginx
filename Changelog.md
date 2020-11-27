@@ -1581,7 +1581,7 @@ _Changes:_
 - [X] [#3582](https://github.com/kubernetes/ingress-nginx/pull/3582) Sort ingresses by creation timestamp
 - [X] [#3584](https://github.com/kubernetes/ingress-nginx/pull/3584) Update go to 1.11.4
 - [X] [#3586](https://github.com/kubernetes/ingress-nginx/pull/3586) Add --disable-catch-all option to disable catch-all server
-- [X] [#3587](https://github.com/kubernetes/ingress-nginx/pull/3587) adjust dind istallation
+- [X] [#3587](https://github.com/kubernetes/ingress-nginx/pull/3587) adjust dind installation
 - [X] [#3594](https://github.com/kubernetes/ingress-nginx/pull/3594) Add a flag to make per-host metrics optional
 - [X] [#3596](https://github.com/kubernetes/ingress-nginx/pull/3596) Fix proxy_host variable configuration
 - [X] [#3601](https://github.com/kubernetes/ingress-nginx/pull/3601) Update nginx to 1.15.8
