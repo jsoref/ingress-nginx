@@ -38,7 +38,7 @@ const SlowEchoService = "slow-echo"
 const HTTPBinService = "httpbin"
 
 // NginxBaseImage use for testing
-const NginxBaseImage = "k8s.gcr.io/ingress-nginx/nginx:v20210926-g5662db450@sha256:1ef404b5e8741fe49605a1f40c3fdd8ef657aecdb9526ea979d1672eeabd0cd9"
+const NginxBaseImage = "k8s.gcr.io/ingress-nginx/nginx:81c2afd975a6f9a9847184472286044d7d5296f6@sha256:a71ac64dd8cfd68341ba47dbdc4d8c2cb91325fce669875193ea0319118201b5"
 
 type deploymentOptions struct {
 	namespace string
@@ -227,7 +227,7 @@ func (f *Framework) NewGRPCBinDeployment() {
 		PeriodSeconds:       1,
 		SuccessThreshold:    1,
 		TimeoutSeconds:      1,
-		Handler: corev1.Handler{
+		ProbeHandler: corev1.ProbeHandler{
 			TCPSocket: &corev1.TCPSocketAction{
 				Port: intstr.FromInt(9000),
 			},
@@ -318,7 +318,7 @@ func newDeployment(name, namespace, image string, port int32, replicas int32, co
 		SuccessThreshold:    1,
 		TimeoutSeconds:      2,
 		FailureThreshold:    6,
-		Handler: corev1.Handler{
+		ProbeHandler: corev1.ProbeHandler{
 			HTTPGet: &corev1.HTTPGetAction{
 				Port: intstr.FromString("http"),
 				Path: "/",
